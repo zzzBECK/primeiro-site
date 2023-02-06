@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="stylefb.css">
+    <link rel="shortcut icon" href="../Site/_imagens/logo macaco.png">
+</head>
+<body>
+    <div class="menu-principal">
+        <a href="../Site/index.html"><img src="../Site/_imagens/logo macaco.png" title="Página Inicial"></a>
+        <h1>Feedback</h1>
+    </div>
+    <main>
+    </div>
+        <form action="../Site/index.html" method="post">
+            <div>
+                <label for="none">Nome e Sobrenome:</label>
+                <input type="text" id="nome" name="usuario_nome" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="usuario_email" id="email" required>
+            </div>
+            <div>
+                <label for="Escolha">Escolha qual foi o favorito</label>
+                <select name="Escolha" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option value="1">MC Poze</option>
+                    <option value="2">Pop Smoke</option>
+                    <option value="3">MC Rick</option>
+                    <option value="4">Turma do Pagode</option>
+                </select>
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea name="usuario_msg" id="msg" required></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
